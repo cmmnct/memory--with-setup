@@ -25,8 +25,8 @@
 <script lang="ts" setup>
 import { ref } from "vue";
 import axios from "axios";
-import Memorycard from "@/components/Card.vue";
-import { Card } from "@/models/Card";
+import memorycard from "../components/Card.vue";
+import { Card } from "../models/Card";
 
 let message = "Love is the message";
 let cpArray = ref([] as Card[]);
